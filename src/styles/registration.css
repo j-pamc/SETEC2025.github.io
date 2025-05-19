@@ -1,0 +1,131 @@
+.registration-page {
+    padding: 30px 0;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  
+  .registration-page h1 {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .registration-form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+  }
+  
+  .form-group input,
+  .form-group select {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+  }
+  
+  .activities-section {
+    margin-top: 40px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+  }
+  
+  .activities-section h2 {
+    margin-bottom: 20px;
+  }
+  
+  /*.activities-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+  }*/
+
+  .activities-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.activity-card {
+  width: 100%; /* ocupa toda a largura do container */
+  max-width: 5300px; /* opcional: limita o tamanho para não ficar gigante */
+   margin: 15px 0;   /* centraliza horizontalmente */
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+  
+  .submit-button {
+    width: 100%;
+    padding: 15px;
+    margin-top: 30px;
+    font-size: 1.1rem;
+  }
+
+  .course-buttons {
+    border-radius: 12px;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  
+  .course-button {
+    padding: 6px 14px;
+    border: 1.5px solid transparent;
+    border-radius: 10px;
+    background-color: rgba(10, 36, 99, 0.2); /* tom azul institucional mais claro */
+    color: var(--light);
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.35s ease, transform 0.2s ease, color 0.35s ease;
+  }
+  
+  .course-button:hover {
+    background-color: #163d96; /* var(--secondary) translúcido */
+    color: var(--light);
+    transform: translateY(-1px);
+  }
+  
+  .course-button.active {
+    background-color: #1a3e92;
+    color: var(--light);
+    font-weight: bold;
+  }
+  
+
+  .type-filter {
+    background-color: rgba(0, 0, 0, 0.05); 
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 20px;
+  }
+
+  .registration-content {
+    margin: 0%;
+    padding: 0%;
+  }
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+.titulo {
+  font-family: 'Raleway', sans-serif;
+    margin: 40px;
+    padding: 0%;
+  }

@@ -1,0 +1,41 @@
+[
+    {
+      "id": 1,
+      "name": "Workshop de Inteligência Artificial",
+      "description": "Aprenda os fundamentos da IA e machine learning com aplicações práticas",
+      "course": "einfo",
+      "type": "Workshop",
+      "date": "28/05/2025",
+      "time": "09:00 - 12:00",
+      "location": "Auditório Principal",
+      "speaker": "Dr. João Silva",
+      "capacity": 50,
+      "registered": 32
+    },
+    {
+      "id": 2,
+      "name": "Mesa Redonda: O Futuro da Energia",
+      "description": "Discussão sobre as tendências e inovações no setor energético",
+      "course": "epi",
+      "type": "Mesa Redonda",
+      "date": "29/05/2025",
+      "time": "14:00 - 16:00",
+      "location": "Sala 203",
+      "speaker": "Eng. Maria Santos",
+      "capacity": 80,
+      "registered": 45
+    },
+    {
+      "id": 3,
+      "name": "Competição de Robótica",
+      "description": "Desafio de programação e montagem de robôs autônomos",
+      "course": "emc",
+      "type": "Competição",
+      "date": "30/05/2025",
+      "time": "10:00 - 17:00",
+      "location": "Laboratório de Mecatrônica",
+      "speaker": "Prof. Carlos Mendes",
+      "capacity": 20,
+      "registered": 15
+    }
+  ]
